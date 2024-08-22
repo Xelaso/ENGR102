@@ -3,7 +3,7 @@
 #   "I have not given or received any unauthorized aid on this assignment."
 #
 # Name:         Alexander So
-# Section:      102
+# Section:      573
 # Assignment:   Lab 1 follow directions
 # Date:         22/8/2024
 #
