@@ -20,7 +20,7 @@ print("This shows the evaluation of tan(x)/x evaluated close to x=0")
 print("My guess is 2")
 for i in range(8):
     num = mathFunction(i)
-    
-    print(math.tan(num)/num)
+    finalNum = (1 - math.cos(num))/(num**2)
+    print(finalNum)
 
 print("\nMy guess was a bit off")
