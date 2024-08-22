@@ -16,7 +16,7 @@ def mathFunction(place):
     return num
 
 
-print("This shows the evaluation of tan(x)/x evaluated close to x=0")
+print("This shows the evaluation of (1-cos(x))/x^2 evaluated close to x=0")
 print("My guess is 2")
 for i in range(8):
     num = mathFunction(i)
