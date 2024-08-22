@@ -8,4 +8,5 @@
 # Date:         22/8/2024
 #
 
+# style
 print('Reynolds number is 5250.0\nWavelength is 0.03212028043565858 nm\nProduction rate is 2.8969356500320727 barrels/day\nChange of velocity is 571.1654292155197 m/s')
