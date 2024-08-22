@@ -2,9 +2,9 @@
 #   "Aggies do not lie, cheat, or steal, or tolerate those who do."
 #   "I have not given or received any unauthorized aid on this assignment."
 #
-# Name:         Alex So
+# Name:         Alexander So
 # Section:      102
-# Assignment:   Lab 1.12 Print math
+# Assignment:   Lab 1 Print Math
 # Date:         22/8/2024
 #
 
