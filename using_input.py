@@ -16,13 +16,14 @@ l = float(input("\nPlease enter the length (m): "))
 v = float(input("\nPlease enter the viscosity (m^2/s): "))
 reynoldsNum = u*l/v
 
-print("\nReynolds number is", int(reynoldsNum))
+print("\nReynolds number is", round(reynoldsNum))
 
 print("\nThis program calculates the wavelength given distance and angle")
 d = float(input("Please enter the distance (nm): "))
 theta = float(input("\nPlease enter the angle (degrees): "))
 braggsLaw = 2*d*math.sin(math.radians(theta))
-print("\nWavelength is", round(braggsLaw, 4), "nm")
+txt = "{bl:.4f}"
+print("\nWavelength is", txt.format(bl=round(braggsLaw, 10)), "nm")
 
 
 print("\nThis program calculates the production rate given time, initial rate, and decline rate")
