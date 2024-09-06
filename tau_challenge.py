@@ -10,3 +10,8 @@
 
 import math
 
+precision = float(input("Please enter the number of digits of precision for tau: "))
+
+num = ('{:.' + '{}'.format(int(precision)) + 'f}').format(math.tau) 
+
+print("The value of tau to " + str(int(precision)) + " digits is: " + str(num))
