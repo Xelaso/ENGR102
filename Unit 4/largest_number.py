@@ -10,8 +10,15 @@
 
 #taking user input
 a = float(input("Enter number 1: "))
-b = float(input("Enter number 1: "))
-c = float(input("Enter number 1: "))
-d = [a, b, c]
-d.sort()
-print("The largest number is", d[2])
+b = float(input("Enter number 2: "))
+c = float(input("Enter number 3: "))
+if (c > a):
+    if(c > b):
+        print("The largest number is", c)
+    else:
+        print("The largest number is", b)
+else:
+    if(a > b):
+        print("The largest num ber is", a)
+    else:
+        print("The largest number is", b)
