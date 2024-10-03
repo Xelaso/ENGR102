@@ -63,7 +63,7 @@ while(True):
         x = int(move[0])
         y = int(move[1])
         #throws an exception if the user tries to place a piece in an already occupied location
-        if(board[x][y] != '.'):
+        if(board[x][y] != '.' or x < 0 or y < 0):
             raise Exception()
         board[x][y] = wStone if turn else bStone
     except:
