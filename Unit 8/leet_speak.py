@@ -24,7 +24,7 @@ convertedInput = ""
 #converts to leet speak
 for char in textInput:
     if char.lower() in leetDict:
-        convertedInput += leetDict.get(char.lower())
+        convertedInput += leetDict.[char.lower()]
     else:
         convertedInput += char
 
