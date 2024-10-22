@@ -90,13 +90,13 @@ def partf(nums):
 def partg(x, tolerance):
     sum = 0
     n = 1
-    #until the term is less than tolerance, loop and add term to sum
     while True:
-        term = (2/(2*n - 1)) * x **(2*n - 1)
-        sum += term
-        if abs(term) < tolerance:
+        term = (2 / (2 * n - 1)) * x ** (2 * n - 1)
+        if abs(term) < tolerance: 
             break
-        n+=1
+        sum += term
+        n += 1
     return sum
+
         
 print(partg(.5, 1e-6))
