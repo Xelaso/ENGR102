@@ -7,5 +7,22 @@
 # Assignment:   Lab Topic 12 Individual
 # Date: 11-9-2024        
 #
+import numpy as np
+import matplotlib.pyplot as plt
 
+point = np.array([[0], [1]])
+matrix = np.array([[1.02, 0.095], [-0.095, 1.02]])
+pointsArr = []
+pointsArr.append(point)
+for i in range(250):
+    newP = matrix @ pointsArr[i]
+    pointsArr.append(newP)
 
+fig, ax = plt.subplots()
+
+for p in pointsArr:
+    x = p[0][0]
+    y = p[1][0]
+    ax.plot(x, y, 'ro')
+
+plt.show()
