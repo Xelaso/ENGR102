@@ -19,7 +19,9 @@ for i in range(250):
     pointsArr.append(newP)
 
 fig, ax = plt.subplots()
-
+fig.suptitle("Pretty Plot")
+ax.set_xlabel("X", color="black")
+ax.set_ylabel("Y", color="black")
 for p in pointsArr:
     x = p[0][0]
     y = p[1][0]
