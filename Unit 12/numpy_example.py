@@ -21,9 +21,12 @@ a = np.arange(12).reshape(3, 4)
 b = np.arange(8).reshape(4, 2)
 c = np.arange(6).reshape(2,3)
 d = a @ b @ c
+dT = d.T
 e = np.sqrt(d) / 2
 print(f'A={a}\n')
 print(f'B={b}\n')
 print(f'C={c}\n')
 print(f'D={d}\n')
+print(f'D^T={dT}\n')
+
 print(f'E={e}')
