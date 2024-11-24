@@ -91,6 +91,8 @@ class Host:
                             self.printMain()
                             action = self.processInput()
                             break
+                        if(action == 'stop'):
+                            break
                         try:
                             gameNum = int(action)
                             if(gameNum <= 0 or gameNum >len(self.games)):
