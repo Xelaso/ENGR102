@@ -129,6 +129,8 @@ class Host:
                     prevState = 'GM'
                     action = 'a'
                 else:
+                    currentState = 'MM'
+                    prevState = 'GM'
                     self.printMain()
                     action = self.processInput()
                 
