@@ -255,8 +255,13 @@ class Host:
     def __init__(self, *args):
         for game in args:
             self.games.append(game)
+    
     def addGame(self, game):
         self.games.append(game)
+
+
+
+
     def printMain(self):
         print('-----------------------------------------------------------')
         print(f'Options:\nA > Show Game List\nB > Play Random Game\nC > View Credits')
